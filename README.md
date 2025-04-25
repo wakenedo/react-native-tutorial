@@ -37,9 +37,11 @@ Obs :
 
 Vamos para a parte que interessa, como buildar o projeto na EAS e posteriormente gerar os arquivos .aab e .apk
 
+- Caso não queira lidar com scripts manuais para gerar o arquivo `.apk` do `.aab` siga os passos em Observações Finais e continue o tutorial ignorando a etapa do comando `eas build --platform android` 
+
 Vamos rodar o comando `eas build --platform android`, com isso vamos começar o processo de build, vamos deixar o EAS criar automaticamente o projeto no nosso usuário.
-Como estamos rodando o build usando o comando acima sem especificar um ambiente, estamos criando uma imagem para todos. É o que queremos, pois precisamos do nosso applicativo com a imagem em produção configurada. 
-Caso ocntrário não será possivel rodar o aplicativo no emulador como queremos.
+Com esse comando vamos gerar uma build `.aab` É o que queremos, pois precisamos do nosso applicativo com a imagem em produção configurada. 
+Caso contrário não será possivel rodar o aplicativo no emulador como queremos.
 
 ![Capturar6](https://github.com/user-attachments/assets/02fef767-1bef-4251-9522-08f103029603)
 

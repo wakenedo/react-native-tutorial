@@ -114,16 +114,11 @@ A aplicação está rodando a partir do arquivo `.apk` em produção, como preci
 
 # Observações finais
 
-Se você preferir não lidar com scripts manuais ou o bundletool, também é possível gerar o arquivo .apk diretamente com o EAS, sem precisar converter o .aab. Basta ajustar o eas.json com a opção abaixo:
+Se você preferir não lidar com scripts manuais ou o bundletool, também é possível gerar o arquivo .apk diretamente com o EAS, sem precisar converter o .aab. 
 
-`"preview": {
-  "distribution": "internal",
-  "android": {
-    "buildType": "apk"
-  }
-}`
+Utilizando `eas build --profile production` ou `--profile preview`, ao final do build você pode baixar diretamente o APK além do .aab, sem precisar rodar um script separado.
 
-depois rode o comando, `eas build --profile preview --platform android`
+O Expo disponibiliza o download direto do .apk através do painel Web (ou via link no terminal após o build).
 
 O Expo irá gerar o .apk e fornecer um link para download ao final do build, como esse:
 

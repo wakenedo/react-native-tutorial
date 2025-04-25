@@ -36,3 +36,9 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Apk
+output-apks/
+
+# Bundle-tool jar
+/scripts/bundletool-all-1.18.1.jar

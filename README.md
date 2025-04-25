@@ -26,14 +26,14 @@ Vamos rodar o comando `npx expo start` para iniciar o ambiente de desenvolviment
 ![Capturar4](https://github.com/user-attachments/assets/f15fc5a5-1fe4-4d2a-b0cb-7c164d647c81)
 
 Pronto 🥳 o aplicativo está rodando no emulador, utilizando o projeto limpo.
-Siga as instruções para construir a interface disponibilizada em aula para concluir a a parte do frontend.
+Siga as instruções disponibilizadas em aula para construir a interface e concluir a parte do frontend.
 
 
 ## Buildando o projeto no EAS
 
 
 Obs :
-- É necessário instalar a cli do EAS e logar, se você já está logado é só seguir o tutorial.
+- É necessário instalar a cli do EAS e logar através do prompt de comandos ou terminal de sua escolha, se você já está logado no cli é só seguir o tutorial.
 
 Vamos para a parte que interessa, como buildar o projeto na EAS e posteriormente gerar os arquivos .aab e .apk
 
@@ -50,17 +50,17 @@ Escolhemos `com.wakenedo.reactnativetutorial`
 
 ![Capturar7](https://github.com/user-attachments/assets/b2d90f0a-55b4-4002-80bf-4c314a6844e8)
 
-Vamos tambem deixar o EAS lidar com as keys, depois dessa etapa o build vai entrar na fila, vamos espera até completar.
+Vamos tambem deixar o EAS lidar com as keys, depois dessa etapa o build vai entrar na fila, vamos esperar até completar.
 
 ![Capturar8](https://github.com/user-attachments/assets/864c3cfe-1ede-49ca-8f7a-1cc5fe6af55f)
 
-Quando completar você deve ver seu terminal como a imagem que está abaixo
+Quando completar você deve ver seu terminal algo como a imagem que está abaixo
 
 ![Capturar9](https://github.com/user-attachments/assets/e890d0be-5e70-4edb-b077-2cd0c4bcc137)
 
 Apos a build ser concluída, o `eas.json` será adicionado na raíz do seu projeto.
 
-Em nosso `app.json` foi adicionado na chave android o nosso package `com.wakenedo.reactnativetutorial` 
+Em nosso `app.json` foi adicionado na chave android o nosso package: `com.wakenedo.reactnativetutorial` 
 
 ![Capturar10](https://github.com/user-attachments/assets/810b970e-0787-42b3-9725-a6f0c5dfc7b8)
 

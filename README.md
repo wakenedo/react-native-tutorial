@@ -37,7 +37,7 @@ Obs :
 
 Vamos para a parte que interessa, como buildar o projeto na EAS e posteriormente gerar os arquivos .aab e .apk
 
-- Caso não queira lidar com scripts manuais para gerar o arquivo `.apk` do `.aab` siga os passos em Observações Finais e continue o tutorial ignorando a etapa do comando `eas build --platform android` 
+- Caso não queira lidar com scripts manuais para gerar o arquivo `.apk` do `.aab` siga os passos em Observações Finais e continue o tutorial ignorando a etapa do comando `eas build --platform android`, você ainda será guiado pelas mesmas etapas de build das imagens abaixo. 
 
 Vamos rodar o comando `eas build --platform android`, com isso vamos começar o processo de build, vamos deixar o EAS criar automaticamente o projeto no nosso usuário.
 Com esse comando vamos gerar uma build `.aab` É o que queremos, pois precisamos do nosso applicativo com a imagem em produção configurada. 
@@ -71,7 +71,7 @@ Ok com o build concluido podemos baixar o arquivo `.aab`.
 Como não podemos instalar diretamente o arquivo `.aab`, vamos precisar de um script que use o `bundletool` para gerar o arquivo `.apk` que precisamos e instalar em nosso emulador ativo.
 
 Baixe o bundletool.jar:
-[Bandletool](https://github.com/google/bundletool/releases)
+[Bundletool](https://github.com/google/bundletool/releases)
 
 ![Capturar11](https://github.com/user-attachments/assets/d2072672-b4a1-4608-be65-514a658b6bf9)
 
